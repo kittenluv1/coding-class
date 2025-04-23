@@ -1,0 +1,17 @@
+body {
+    background-color: pink;
+}
+
+h1, h3, p {
+    color: blue;
+    font-family: Arial, sans-serif;
+    font-size: 20px; 
+}
+
+.red {
+    color: red;
+}
+
+body {
+    background-color: black;
+}
