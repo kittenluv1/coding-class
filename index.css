@@ -30,3 +30,20 @@ div {
     justify-content: center; 
     align-items: center;  
 }
+
+/* https://www.w3schools.com/cssref/css3_pr_animation.php */
+#dancing-sanrio {
+    animation: dance 1.5s infinite;
+}
+
+@keyframes dance {
+    0% {
+        transform: rotate(-20deg);
+    }
+    50% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(-20deg);
+    }
+}
